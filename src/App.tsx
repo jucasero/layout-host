@@ -1,9 +1,10 @@
-import styles from "./style.module.css";
+import { Header, Footer } from "./components";
+import "./index.css";
 
-interface AppProps {
-  number: number;
-}
-
-export const App = ({ number }: AppProps) => (
-  <h1 className={styles.app}>estes es el numero {number}</h1>
+export const App = () => (
+  <>
+    <Header />
+    <main />
+    <Footer />
+  </>
 );

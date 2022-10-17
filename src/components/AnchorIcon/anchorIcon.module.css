@@ -1,0 +1,11 @@
+.anchor {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.image {
+    width: 4rem;
+    height: 4rem;
+
+}
